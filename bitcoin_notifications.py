@@ -3,7 +3,7 @@ import time
 from datetime import datetime
 
 BITCOIN_API_URL = 'https://api.coinmarketcap.com/v1/ticker/bitcoin/'
-IFTTT_WEBHOOKS_URL = 'https://maker.ifttt.com/trigger/{}/with/key/p7TXrGLFhy4IiMUacF0D9OZ4pnDTUaIqRl3lIXVP7AP'
+IFTTT_WEBHOOKS_URL = 'https://maker.ifttt.com/trigger/{}/with/key/INSERT_YOUR_KEY_HERE'
 BITCOIN_PRICE_THRESHHOLD = 3500
 
 def get_latest_bitcoin_price():
